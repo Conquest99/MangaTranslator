@@ -218,3 +218,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# MangaTranslator local runtime and private data
+data/
+outputs/
+.secrets/
+.venv/
+Sakura-7B/
+sakura-model/
+samples/batch_gt/
+samples/*_gt.json

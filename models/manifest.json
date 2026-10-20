@@ -1,0 +1,142 @@
+{
+  "detector": {
+    "cpu": [
+      {
+        "path": "data/models/comictextdetector.pt.onnx",
+        "url": "https://huggingface.co/dreMaz/mit_models/resolve/main/comictextdetector.pt.onnx"
+      }
+    ],
+    "other": [
+      {
+        "path": "data/models/comictextdetector.pt",
+        "url": "https://huggingface.co/dreMaz/mit_models/resolve/main/comictextdetector.pt"
+      }
+    ]
+  },
+  "ocr": {
+    "PaddleOCRVLManga": [
+      {
+        "path": "data/models/PaddleOCR-VL-For-Manga/added_tokens.json",
+        "url": "https://huggingface.co/jzhang533/PaddleOCR-VL-For-Manga/resolve/main/added_tokens.json"
+      },
+      {
+        "path": "data/models/PaddleOCR-VL-For-Manga/chat_template.jinja",
+        "url": "https://huggingface.co/jzhang533/PaddleOCR-VL-For-Manga/resolve/main/chat_template.jinja"
+      },
+      {
+        "path": "data/models/PaddleOCR-VL-For-Manga/config.json",
+        "url": "https://huggingface.co/jzhang533/PaddleOCR-VL-For-Manga/resolve/main/config.json"
+      },
+      {
+        "path": "data/models/PaddleOCR-VL-For-Manga/configuration_paddleocr_vl.py",
+        "url": "https://huggingface.co/jzhang533/PaddleOCR-VL-For-Manga/resolve/main/configuration_paddleocr_vl.py"
+      },
+      {
+        "path": "data/models/PaddleOCR-VL-For-Manga/generation_config.json",
+        "url": "https://huggingface.co/jzhang533/PaddleOCR-VL-For-Manga/resolve/main/generation_config.json"
+      },
+      {
+        "path": "data/models/PaddleOCR-VL-For-Manga/image_processing.py",
+        "url": "https://huggingface.co/jzhang533/PaddleOCR-VL-For-Manga/resolve/main/image_processing.py"
+      },
+      {
+        "path": "data/models/PaddleOCR-VL-For-Manga/model.safetensors",
+        "url": "https://huggingface.co/jzhang533/PaddleOCR-VL-For-Manga/resolve/main/model.safetensors"
+      },
+      {
+        "path": "data/models/PaddleOCR-VL-For-Manga/modeling_paddleocr_vl.py",
+        "url": "https://huggingface.co/jzhang533/PaddleOCR-VL-For-Manga/resolve/main/modeling_paddleocr_vl.py"
+      },
+      {
+        "path": "data/models/PaddleOCR-VL-For-Manga/preprocessor_config.json",
+        "url": "https://huggingface.co/jzhang533/PaddleOCR-VL-For-Manga/resolve/main/preprocessor_config.json"
+      },
+      {
+        "path": "data/models/PaddleOCR-VL-For-Manga/processing_paddleocr_vl.py",
+        "url": "https://huggingface.co/jzhang533/PaddleOCR-VL-For-Manga/resolve/main/processing_paddleocr_vl.py"
+      },
+      {
+        "path": "data/models/PaddleOCR-VL-For-Manga/processor_config.json",
+        "url": "https://huggingface.co/jzhang533/PaddleOCR-VL-For-Manga/resolve/main/processor_config.json"
+      },
+      {
+        "path": "data/models/PaddleOCR-VL-For-Manga/README.md",
+        "url": "https://huggingface.co/jzhang533/PaddleOCR-VL-For-Manga/resolve/main/README.md"
+      },
+      {
+        "path": "data/models/PaddleOCR-VL-For-Manga/special_tokens_map.json",
+        "url": "https://huggingface.co/jzhang533/PaddleOCR-VL-For-Manga/resolve/main/special_tokens_map.json"
+      },
+      {
+        "path": "data/models/PaddleOCR-VL-For-Manga/tokenizer.json",
+        "url": "https://huggingface.co/jzhang533/PaddleOCR-VL-For-Manga/resolve/main/tokenizer.json"
+      },
+      {
+        "path": "data/models/PaddleOCR-VL-For-Manga/tokenizer.model",
+        "url": "https://huggingface.co/jzhang533/PaddleOCR-VL-For-Manga/resolve/main/tokenizer.model"
+      },
+      {
+        "path": "data/models/PaddleOCR-VL-For-Manga/tokenizer_config.json",
+        "url": "https://huggingface.co/jzhang533/PaddleOCR-VL-For-Manga/resolve/main/tokenizer_config.json"
+      }
+    ],
+    "mit48px": [
+      {
+        "path": "data/models/ocr_ar_48px.ckpt",
+        "url": "https://huggingface.co/zyddnys/manga-image-translator/resolve/main/ocr_ar_48px.ckpt"
+      },
+      {
+        "path": "data/alphabet-all-v7.txt",
+        "url": "https://huggingface.co/zyddnys/manga-image-translator/resolve/main/alphabet-all-v7.txt"
+      }
+    ],
+    "manga_ocr": [
+      {
+        "path": "data/models/manga-ocr-base/README.md",
+        "url": "https://huggingface.co/kha-white/manga-ocr-base/resolve/main/README.md"
+      },
+      {
+        "path": "data/models/manga-ocr-base/config.json",
+        "url": "https://huggingface.co/kha-white/manga-ocr-base/resolve/main/config.json"
+      },
+      {
+        "path": "data/models/manga-ocr-base/preprocessor_config.json",
+        "url": "https://huggingface.co/kha-white/manga-ocr-base/resolve/main/preprocessor_config.json"
+      },
+      {
+        "path": "data/models/manga-ocr-base/pytorch_model.bin",
+        "url": "https://huggingface.co/kha-white/manga-ocr-base/resolve/main/pytorch_model.bin"
+      },
+      {
+        "path": "data/models/manga-ocr-base/special_tokens_map.json",
+        "url": "https://huggingface.co/kha-white/manga-ocr-base/resolve/main/special_tokens_map.json"
+      },
+      {
+        "path": "data/models/manga-ocr-base/tokenizer_config.json",
+        "url": "https://huggingface.co/kha-white/manga-ocr-base/resolve/main/tokenizer_config.json"
+      },
+      {
+        "path": "data/models/manga-ocr-base/vocab.txt",
+        "url": "https://huggingface.co/kha-white/manga-ocr-base/resolve/main/vocab.txt"
+      }
+    ],
+    "ppv6_onnx": [
+      {
+        "path": "data/models/PP-OCRv6_medium_rec_onnx/inference.onnx",
+        "url": "https://huggingface.co/PaddlePaddle/PP-OCRv6_medium_rec_onnx/resolve/main/inference.onnx"
+      },
+      {
+        "path": "data/models/PP-OCRv6_medium_rec_onnx/inference.yml",
+        "url": "https://huggingface.co/PaddlePaddle/PP-OCRv6_medium_rec_onnx/resolve/main/inference.yml"
+      }
+    ]
+  },
+  "inpainter": {
+    "lama_large_512px": [
+      {
+        "path": "data/models/lama_large_512px.ckpt",
+        "url": "https://huggingface.co/dreMaz/AnimeMangaInpainting/resolve/main/lama_large_512px.ckpt"
+      }
+    ]
+  }
+}
